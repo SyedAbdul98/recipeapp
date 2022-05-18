@@ -2,7 +2,9 @@ import React from "react";
 
 export default function Recipe(props) {
   return (
-    <div className="col-md m-2 ">
+    <>
+    <h1>Recipies are below: </h1>
+        <div className="col-md m-2 ">
       <div className="card bg-secondary" style={{ width: "18rem" }}>
       <div className="card-body">
         <img className="card-img-top" src={props.image} alt="" />
@@ -13,5 +15,6 @@ export default function Recipe(props) {
       </div>
     </div>
     </div>
+    </>
   );
 }
